@@ -1,0 +1,42 @@
+body{
+    font-family: 'Island Moments', cursive;
+font-family: 'Poppins', sans-serif;
+margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.change-colr{
+    color: orange;
+}
+section{
+    display: flex;
+    margin-bottom: 100px;
+  
+}
+.half-width{
+    width: 40%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 100%;
+    padding-right: 2%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
