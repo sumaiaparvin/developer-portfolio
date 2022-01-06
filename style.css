@@ -6,10 +6,13 @@ margin: 0;
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .change-colr{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
   
@@ -20,7 +23,7 @@ section{
 }
 .half-width img{
     width: 100%;
-    padding-right: 2%;
+
 }
 .link-button{
     text-decoration: none;
@@ -39,4 +42,30 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.div-divider{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px ;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#border-area{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#border-area1{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(243, 166, 158),tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
